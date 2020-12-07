@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">玩安卓</string>
+    <string name="bad_network_view_tip">您的网络不稳定,点击重新加载</string>
+    <string name="load_error">加载失败</string>
+    <string name="bottom_tab_home">首页</string>
+    <string name="bottom_tab_project">项目</string>
+    <string name="bottom_tab_square">广场</string>
+    <string name="bottom_tab_public">公众号</string>
+    <string name="bottom_tab_mine">我的</string>
+    <string name="project_list">项目列表</string>
+
+</resources>

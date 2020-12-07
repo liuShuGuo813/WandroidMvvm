@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <data>
+
+                <variable
+                    name="onclick"
+                    type="android.view.View.OnClickListener" />
+
+        </data>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:background="@color/bottom_bar_overlay">
+
+                        <TextView
+                            android:id="@+id/ll_home"
+                            android:drawableTop="@drawable/selector_icon_home"
+                            android:text="@string/bottom_tab_home"
+                            style="@style/Bottom_Tab"
+                            android:onClick="onClick"/>
+
+                        <TextView
+                            android:id="@+id/ll_project"
+                            android:drawableTop="@drawable/selector_icon_project"
+                            android:text="@string/bottom_tab_project"
+                            style="@style/Bottom_Tab"
+                            android:onClick="onClick"/>
+
+                        <TextView
+                            android:id="@+id/ll_square"
+                            android:drawableTop="@drawable/selector_icon_square"
+                            android:text="@string/bottom_tab_square"
+                            style="@style/Bottom_Tab"
+                            android:onClick="onClick"/>
+
+                        <TextView
+                            android:id="@+id/ll_public"
+                            android:drawableTop="@drawable/selector_icon_public"
+                            android:text="@string/bottom_tab_public"
+                            style="@style/Bottom_Tab"
+                            android:onClick="onClick"/>
+
+                        <TextView
+                            android:id="@+id/ll_mine"
+                            android:drawableTop="@drawable/selector_icon_mine"
+                            android:text="@string/bottom_tab_mine"
+                            style="@style/Bottom_Tab"
+                            android:onClick="onClick"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+</layout>
